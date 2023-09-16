@@ -33,3 +33,9 @@ ul {
     text-align: center;
     list-style-position: inside;
 }
+
+.emailLink {
+    text-align: center;
+    font-size: x-large;
+    padding: 1em;
+}
