@@ -34,7 +34,7 @@ ul {
     list-style-position: inside;
 }
 
-.emailLink {
+.emailHref {
     text-align: center;
     font-size: x-large;
     padding: 1em;
