@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-style: dotted;
+    padding: .5em;
+    list-style-type: circle;
+}
+
+img {
+    width: 35em;
+}
+
+.emailForm {
+    margin: 1em;
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.emailFeatures {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}

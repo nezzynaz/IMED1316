@@ -5,16 +5,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Red Pandas!</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Added an external stylesheet to import a new font-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <style>
-      img {
-        width: 350px;
+      h1 {
+        font-weight: bold;
+        font-size: 4em;
+        color: rgb(107, 16, 0);
+        margin: 0.5em;
+        text-align: center;
+      }
+      .emailForm {
+        font-size: larger;
+      }
+      .pictureLink {
+        color: brown;
+        font-weight: bold;
+        font-size: large;
+        margin: 0.5em;
+        padding: 0.5em;
       }
     </style>
   </head>
   <body>
     <div class="introduction">
       <h1 title="Ailurus fulgins">Red Pandas</h1>
-      <h3 style="font-size: medium; color: brown">
+      <h3 style="font-size: medium; color: brown; text-align: center">
         <em>The cutest bear-cats in the world!</em>
       </h3>
       <h2>About Red Pandas</h2>
@@ -33,27 +50,63 @@
         bamboo or plant eating animal.
       </blockquote>
       <p>They <b>LOVE</b> Bamboo!</p>
+
       <a href="https://www.worldwildlife.org/species/red-panda"
         >Read more about them on the official WWF website.</a
       >
     </div>
-    <div>
+    <br />
+    <div class="pandaFacts">
+      <table>
+        <tr>
+          <th colspan="2">Facts about Red Pandas</th>
+        </tr>
+        <tr>
+          <td>Status</td>
+          <td>Endangered</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>Mammal</td>
+        </tr>
+        <tr>
+          <td>diet</td>
+          <td>Omnivore</td>
+        </tr>
+        <tr>
+          <td>Average Life Span</td>
+          <td>8 to 10 Years</td>
+        </tr>
+      </table>
+    </div>
+    <div id="pandaPics">
       <h2>Pictures of red Pandas</h2>
-      <img
-        src="img/redPandaWikipedia.jpg"
-        alt="Red Panda on a branch!"
-        title="Red Panda on a branch!"
-      />
-      <img
-        src="img/redPandaWwf.jpg"
-        alt="Closeup of a Red Pandas face."
-        title="Closeup of a Red Pandas face."
-      />
-      <img
-        src="img/redPandaSanDiegoZoo.jpg"
-        alt="Red Panda walking on a branch."
-        title="Red Panda walking on a branch."
-      />
+      <ul style="list-style-type: none">
+        <li>
+          <img
+            src="img/redPandaWikipedia.jpg"
+            alt="Red Panda on a branch!"
+            title="Red Panda on a branch!"
+          />
+        </li>
+        <li>
+          <img
+            src="img/redPandaWwf.jpg"
+            alt="Closeup of a Red Pandas face."
+            title="Closeup of a Red Pandas face."
+          />
+        </li>
+        <li>
+          <img
+            src="img/redPandaSanDiegoZoo.jpg"
+            alt="Red Panda walking on a branch."
+            title="Red Panda walking on a branch."
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="emailLink">
+      <a href="emailLink.html">Sign up for our email newsletter here!</a>
     </div>
   </body>
 </html>

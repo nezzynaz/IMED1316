@@ -1,0 +1,40 @@
+<!-- Discovered that Github Pages ignores directories that start with a backslash. Using "img" instead of "/img" fixes it.-->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Pandas!</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Added an external stylesheet to import a new font-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="return">
+      <a href="index.html">Return to home</a>
+    </div>
+    <div class="emailFeatures">
+      <h2>Sign up for our email newsletter to get:</h2>
+      <ul>
+        <li>Pictures of Pandas</li>
+        <li>News of Red Panda conservation</li>
+        <li>Ways to support conservation efforts</li>
+        <li>and much more!</li>
+      </ul>
+      <img
+        src="img/redPandaHappy.jpg"
+        style="width: 20em; margin: 1em"
+        alt="A red panda smiling!"
+      />
+    </div>
+    <br />
+    <div class="emailForm">
+      <form action="">
+        <label for="email"
+          >Enter your email here for updates on red pandas:</label
+        ><br /><br />
+        <input type="text" id="email" name="email" /><br />
+      </form>
+    </div>
+  </body>
+</html>
