@@ -1,0 +1,112 @@
+<!-- Discovered that Github Pages ignores directories that start with a backslash. Using "img" instead of "/img" fixes it.-->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Pandas!</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Added an external stylesheet to import a new font-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <style>
+      h1 {
+        font-weight: bold;
+        font-size: 4em;
+        color: rgb(107, 16, 0);
+        margin: 0.5em;
+        text-align: center;
+      }
+      .emailForm {
+        font-size: larger;
+      }
+      .pictureLink {
+        color: brown;
+        font-weight: bold;
+        font-size: large;
+        margin: 0.5em;
+        padding: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="introduction">
+      <h1 title="Ailurus fulgins">Red Pandas</h1>
+      <h3 style="font-size: medium; color: brown; text-align: center">
+        <em>The cutest bear-cats in the world!</em>
+      </h3>
+      <h2>About Red Pandas</h2>
+      <p>
+        <i>From WWF's Article on Red Pandas:</i>
+      </p>
+      <blockquote cite="https://www.worldwildlife.org/species/red-panda">
+        The red panda is slightly larger than a domestic cat with a bear-like
+        body and thick russet fur. The belly and limbs are black, and there are
+        white markings on the side of the head and above its small eyes. Red
+        pandas are very skillful and acrobatic animals that predominantly stay
+        in trees. Almost 50% of the red panda’s habitat is in the Eastern
+        Himalayas. They use their long, bushy tails for balance and to cover
+        themselves in winter, presumably for warmth. Primarily an herbivore, the
+        name panda is said to come from the Nepali word ‘ponya,’ which means
+        bamboo or plant eating animal.
+      </blockquote>
+      <p>They <b>LOVE</b> Bamboo!</p>
+
+      <a href="https://www.worldwildlife.org/species/red-panda"
+        >Read more about them on the official WWF website.</a
+      >
+    </div>
+    <br />
+    <div class="pandaFacts">
+      <table>
+        <tr>
+          <th colspan="2">Facts about Red Pandas</th>
+        </tr>
+        <tr>
+          <td>Status</td>
+          <td>Endangered</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>Mammal</td>
+        </tr>
+        <tr>
+          <td>diet</td>
+          <td>Omnivore</td>
+        </tr>
+        <tr>
+          <td>Average Life Span</td>
+          <td>8 to 10 Years</td>
+        </tr>
+      </table>
+    </div>
+    <div class="emailHref">
+      <a href="email.html">Sign up for our email newsletter here!</a>
+    </div>
+    <div id="pandaPics">
+      <h2 style="text-align: center">Pictures of red Pandas</h2>
+      <ul style="list-style-type: none">
+        <li>
+          <img
+            src="img/redPandaWikipedia.jpg"
+            alt="Red Panda on a branch!"
+            title="Red Panda on a branch!"
+          />
+        </li>
+        <li>
+          <img
+            src="img/redPandaWwf.jpg"
+            alt="Closeup of a Red Pandas face."
+            title="Closeup of a Red Pandas face."
+          />
+        </li>
+        <li>
+          <img
+            src="img/redPandaSanDiegoZoo.jpg"
+            alt="Red Panda walking on a branch."
+            title="Red Panda walking on a branch."
+          />
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
