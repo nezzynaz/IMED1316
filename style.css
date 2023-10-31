@@ -1,41 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500&display=swap");
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: grey;
-    
+  font-family: "Roboto", sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    94deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(175, 18, 13, 1) 0%,
+    rgba(0, 89, 255, 1) 100%
+  );
+  color: white;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    border-style: dotted;
-    padding: .5em;
-    list-style-type: circle;
+a {
+  color: aqua;
+}
+
+.title {
+  font-family: "Agbalumo", sans-serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-style: dotted;
+  padding: 0.5em;
+  list-style-type: circle;
 }
 
 img {
-    width: 35em;
+  width: 35em;
 }
 
 .emailForm {
-    margin: 1em;
-    text-align: center;
-    font-size: larger;
-    font-weight: 900;
+  margin: 1em;
+  text-align: center;
+  font-size: larger;
+  font-weight: 900;
 }
 
 .emailFeatures {
-    text-align: center;
+  text-align: center;
 }
 
 ul {
-    text-align: center;
-    list-style-position: inside;
+  text-align: center;
+  list-style-position: inside;
 }
 
 .emailHref {
-    text-align: center;
-    font-size: x-large;
-    padding: 1em;
+  text-align: center;
+  font-size: x-large;
+  padding: 1em;
+}
+
+#pandaPics {
+  display: flex;
+  flex-direction: column;
+}
+
+.pandaVideo {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pandaMedia {
+  display: flex;
+  margin: 0;
+  overflow: hidden;
+  align-self: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.pandaFacts {
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction {
+  padding: 25px;
+  text-align: center;
+}
+
+.emailForm {
+  margin: auto;
+  text-align: center;
 }

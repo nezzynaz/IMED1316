@@ -12,7 +12,7 @@
       h1 {
         font-weight: bold;
         font-size: 4em;
-        color: rgb(107, 16, 0);
+        color: rgb(238, 36, 0);
         margin: 0.5em;
         text-align: center;
       }
@@ -30,8 +30,10 @@
   </head>
   <body>
     <div class="introduction">
-      <h1 title="Ailurus fulgins">Red Pandas</h1>
-      <h3 style="font-size: medium; color: brown; text-align: center">
+      <div class="title"><h1 title="Ailurus fulgins">Red Pandas</h1></div>
+      <h3
+        style="font-size: medium; color: rgb(0, 255, 255); text-align: center"
+      >
         <em>The cutest bear-cats in the world!</em>
       </h3>
       <h2>About Red Pandas</h2>
@@ -56,57 +58,87 @@
       >
     </div>
     <br />
-    <div class="pandaFacts">
-      <table>
-        <tr>
-          <th colspan="2">Facts about Red Pandas</th>
-        </tr>
-        <tr>
-          <td>Status</td>
-          <td>Endangered</td>
-        </tr>
-        <tr>
-          <td>Type</td>
-          <td>Mammal</td>
-        </tr>
-        <tr>
-          <td>diet</td>
-          <td>Omnivore</td>
-        </tr>
-        <tr>
-          <td>Average Life Span</td>
-          <td>8 to 10 Years</td>
-        </tr>
-      </table>
-    </div>
+    <table class="pandaFacts">
+      <tr>
+        <th colspan="2">Facts about Red Pandas</th>
+      </tr>
+      <tr>
+        <td>Status</td>
+        <td>Endangered</td>
+      </tr>
+      <tr>
+        <td>Type</td>
+        <td>Mammal</td>
+      </tr>
+      <tr>
+        <td>diet</td>
+        <td>Omnivore</td>
+      </tr>
+      <tr>
+        <td>Average Life Span</td>
+        <td>8 to 10 Years</td>
+      </tr>
+    </table>
     <div class="emailHref">
       <a href="email.html">Sign up for our email newsletter here!</a>
     </div>
-    <div id="pandaPics">
-      <h2 style="text-align: center">Pictures of red Pandas</h2>
-      <ul style="list-style-type: none">
-        <li>
-          <img
-            src="img/redPandaWikipedia.jpg"
-            alt="Red Panda on a branch!"
-            title="Red Panda on a branch!"
-          />
-        </li>
-        <li>
-          <img
-            src="img/redPandaWwf.jpg"
-            alt="Closeup of a Red Pandas face."
-            title="Closeup of a Red Pandas face."
-          />
-        </li>
-        <li>
-          <img
-            src="img/redPandaSanDiegoZoo.jpg"
-            alt="Red Panda walking on a branch."
-            title="Red Panda walking on a branch."
-          />
-        </li>
-      </ul>
+    <div class="pandaMedia">
+      <div class="pandaPics">
+        <h2 style="text-align: center">Pictures of red Pandas</h2>
+        <ul style="list-style-type: none">
+          <li>
+            <img
+              src="img/redPandaWikipedia.jpg"
+              alt="Red Panda on a branch!"
+              title="Red Panda on a branch!"
+            />
+          </li>
+          <li>
+            <img
+              src="img/redPandaWwf.jpg"
+              alt="Closeup of a Red Pandas face."
+              title="Closeup of a Red Pandas face."
+            />
+          </li>
+          <li>
+            <img
+              src="img/redPandaSanDiegoZoo.jpg"
+              alt="Red Panda walking on a branch."
+              title="Red Panda walking on a branch."
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="pandaVideo">
+        <h2>Videos of Red Pandas</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/5W65LdcaWvI?si=6_u8tq1pWd9mXmV4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/ERwHvwsGFoE?si=cRHU8Fls3qFDjPFL"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/XEJC7JOIhEM?si=Y0Zdx6_AmqL5e8fz"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </body>
 </html>
