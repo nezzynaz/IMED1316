@@ -16,6 +16,10 @@ a {
   color: aqua;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .title {
   font-family: "Agbalumo", sans-serif;
 }
@@ -45,10 +49,6 @@ img {
   text-align: center;
 }
 
-ul {
-  text-align: center;
-  list-style-position: inside;
-}
 
 .emailHref {
   text-align: center;
@@ -56,21 +56,22 @@ ul {
   padding: 1em;
 }
 
-#pandaPics {
+.pandaPics {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .pandaVideo {
   margin: auto;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
+  text-wrap: wrap
 }
 
 .pandaMedia {
-  display: flex;
   margin: 0;
   overflow: hidden;
   align-self: center;
@@ -92,4 +93,20 @@ ul {
 .emailForm {
   margin: auto;
   text-align: center;
+}
+
+#tabs {
+  width:500px;
+  align-self: center;
+  margin: auto;
+
+}
+
+.ReturnHome {
+  border: none;
+  background-color: inherit;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 14px 28px;
+
 }
