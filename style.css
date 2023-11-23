@@ -7,12 +7,9 @@ body {
     min-height: 100vh; 
 }
 
-footer {
-    height:50px;
-    background: red;
-    margin-top: auto;
+.shadow {
+    text-shadow: 2px 2px 4px #000000;
 }
-
 
 /* || Background Elements */
 
@@ -71,8 +68,6 @@ footer {
     width: 100%;
     background-color: #555;
     background: linear-gradient(180deg, rgba(255, 255, 255, .20) 0%, rgba(0,0,0,0) 100%);
-
-
     overflow: visible;
 }
 
@@ -84,7 +79,8 @@ footer {
     font-weight:light;
     padding: .5rem;
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 10px;
+    margin-right: .5rem;
 }
 
 .navbar a.active {
@@ -103,6 +99,10 @@ footer {
 .navbar .homeButton {
     display: flex;
     flex-direction: row;
+}
+
+.navbar a.about {
+    float: right;
 }
 
 @media screen and (max-width: 700px) {
@@ -125,10 +125,24 @@ footer {
     padding: 0;
 }
 
+.credits {
+    padding: .5rem;
+    margin: .25rem;
+    width: 100%;
+    letter-spacing: .05rem;
+    border-radius: 1rem;
+}
+
+.credits a {
+    text-decoration: none;
+    color: skyblue;
+}
+
 /* || Text */
 
 .subtitle {
     font-family: inter, sans-serif;
     font-weight:lighter;
-    font-size: .95rem;
+    font-style: italic;
+    font-size: 1rem;
 }
