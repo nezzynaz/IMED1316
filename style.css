@@ -3,7 +3,8 @@
 /* || General Styles */
 
 body {
-    font-family: poppins, sans-serif; 
+    font-family: poppins, sans-serif;
+    min-height: 100vh; 
 }
 
 footer {
@@ -12,11 +13,19 @@ footer {
     margin-top: auto;
 }
 
+
 /* || Background Elements */
 
 .homepage {
-    background-color:black;
     color: white;
+    
+    background: rgb(13,45,97);
+    background: linear-gradient(145deg, rgba(13,45,97,1) 0%, rgba(31,52,85,1) 50%, rgba(34,44,60,1) 100%);
+
+}
+
+.homepage a {
+    color: rgb(192, 192, 192);
 }
 
 .homepageFlex {
@@ -32,10 +41,14 @@ footer {
 }
 
 .nt {
+    background: rgb(39,97,13);
+    background: linear-gradient(145deg, rgba(39,97,13,1) 0%, rgba(45,85,31,1) 50%, rgba(38,60,34,1) 100%);
 
 }
 
 .tm {
+
+
 
 }
 
@@ -43,39 +56,65 @@ footer {
 
 }
 
+/* || Homepage */
+
+.homepage img {
+    width: 20rem;
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* || Header, Footer, and Main Nagivation */
 
 .navbar {
+    width: 100%;
+    background-color: #555;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .20) 0%, rgba(0,0,0,0) 100%);
 
+
+    overflow: visible;
 }
 
-.navbar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    background-color:aqua;
-}
-
-.navbar li {
-        display: inline;
-        float: left;
-}
-
-.navbar li a {
-    background-color: red;
-    text-align: center;
-    display: block;
-    padding: 14px 16px;
+.navbar a {
+    float: left;
+    color: white;
+    font-family: inter, sans-serif;
+    font-size: 1.2rem;
+    font-weight:light;
+    padding: .5rem;
     text-decoration: none;
+    border-radius: 15px;
 }
-.navbar li a:hover {
+
+.navbar a.active {
+    background-color: #8888886e;
+}
+
+.navbar a:hover:not(.active) {
     background-color: #111;
 }
 
 .navbar img {
-    width: 1.25rem;
+    height: 1.25em;
+    width: auto;
+}
+
+.navbar .homeButton {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar a {
+        float: none;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding: .35rem;
+        border-radius: 1px;
+        
+    }
 }
 
 /* || Header, Footer, and Main Nagivation */
