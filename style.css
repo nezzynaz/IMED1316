@@ -11,6 +11,19 @@ body {
 /* || Background Elements */
 
 .homepage {
+    background-color:black;
+    color: white;
+}
+
+.homepageFlex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
 
 }
 
