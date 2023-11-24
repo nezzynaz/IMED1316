@@ -44,13 +44,15 @@ body {
 }
 
 .tm {
-
-
+    background: rgb(145,110,19);
+    background: linear-gradient(145deg, rgba(145,110,19,1) 0%, rgba(103,84,38,1) 50%, rgba(57,51,32,1) 100%);
 
 }
 
 .ril {
-
+    background: rgb(80,19,145);
+    background: linear-gradient(145deg, rgba(80,19,145,1) 0%, rgba(57,33,88,1) 50%, rgba(35,25,45,1) 100%);
+    
 }
 
 /* || Homepage */
@@ -126,11 +128,13 @@ body {
 }
 
 .credits {
-    padding: .5rem;
-    margin: .25rem;
-    width: 100%;
+    padding: auto;
+    margin: auto;
+    width: 50%;
     letter-spacing: .05rem;
     border-radius: 1rem;
+    text-align: center;
+    
 }
 
 .credits a {
