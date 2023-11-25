@@ -11,31 +11,7 @@ body {
     text-shadow: 2px 2px 4px #000000;
 }
 
-/* || Background Elements */
-
-.homepage {
-    color: white;
-    
-    background: rgb(13,45,97);
-    background: linear-gradient(145deg, rgba(13,45,97,1) 0%, rgba(31,52,85,1) 50%, rgba(34,44,60,1) 100%);
-
-}
-
-.homepage a {
-    color: rgb(192, 192, 192);
-}
-
-.homepageFlex {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-
-}
+/* || Background Gradients */
 
 .nt {
     background: rgb(39,97,13);
@@ -57,10 +33,55 @@ body {
 
 /* || Homepage */
 
+.homepage {
+    color: white;
+    overflow: auto;
+    background: rgb(13,45,97);
+    background: linear-gradient(145deg, rgba(13,45,97,1) 0%, rgba(31,52,85,1) 50%, rgba(34,44,60,1) 100%);
+
+}
+
+.homepage a {
+    color: rgb(192, 192, 192);
+}
+
 .homepage img {
-    width: 50%;
+    width: 25%;
     max-width: 100%;
     height: auto;
+}
+
+.homepageFlex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.homepageFlex h1 {
+    font-size: 4rem;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.homepageFlex h3 {
+    font-size: 1.5rem;
+    margin: auto;
+    padding-top: 1.25rem;
+}
+
+.subtitle {
+    font-family: inter, sans-serif;
+    font-weight:200;
+    font-style: italic;
+    font-size: 1rem;
 }
 
 .center {
@@ -87,7 +108,7 @@ body {
     text-decoration: none;
     border-radius: .5rem;
     font-family: inter, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .homepageButton p {
@@ -103,10 +124,19 @@ body {
     filter: invert(70%);
 }
 
+.homepageNt {
+    background-color: rgb(39,97,13);
+}
 
+.homepageTm {
+    background-color: rgb(145,110,19);
+}
 
+.homepageRil {
+    background-color: rgb(80,19,145);
+}
 
-/* || Header, Footer, and Main Nagivation */
+/* || Navbar */
 
 .navbar {
     width: 100%;
@@ -120,7 +150,7 @@ body {
     color: white;
     font-family: inter, sans-serif;
     font-size: 1.2rem;
-    font-weight:light;
+    font-weight:200;
     padding: .5rem;
     text-decoration: none;
     border-radius: 10px;
@@ -169,11 +199,12 @@ body {
 .credits {
     padding: auto;
     margin: auto;
+    margin-bottom: 2rem;
     width: 50%;
     letter-spacing: .05rem;
     border-radius: 1rem;
     text-align: center;
-    
+    font-weight:300;
 }
 
 .credits a {
@@ -183,9 +214,40 @@ body {
 
 /* || Text */
 
-.subtitle {
+
+
+/* || Category Nagivation */
+
+.categoryBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.categoryButton {
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(39, 39, 39);
+    padding: 1.25em;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .5rem;
     font-family: inter, sans-serif;
-    font-weight:lighter;
-    font-style: italic;
-    font-size: 1rem;
+    font-weight: 300;
+}
+
+.categoryButton p {
+    padding: 1rem;
+}
+
+.categoryButton img {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
 }
