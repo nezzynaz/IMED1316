@@ -36,13 +36,18 @@ body {
 .homepage {
     color: white;
     overflow: auto;
+
+}
+
+.homepageBackground {
     background: rgb(13,45,97);
     background: linear-gradient(145deg, rgba(13,45,97,1) 0%, rgba(31,52,85,1) 50%, rgba(34,44,60,1) 100%);
 
 }
 
+
 .homepage a {
-    color: rgb(192, 192, 192);
+    color: rgb(241, 241, 241);
 }
 
 .homepage img {
@@ -56,7 +61,6 @@ body {
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
-
     margin: auto;
     width: 50%;
     padding: 10px;
@@ -121,7 +125,7 @@ body {
     align-items: center;
     margin: auto;
     width: 50%;
-    filter: invert(70%);
+    filter: invert(90%);
 }
 
 .homepageNt {
@@ -212,10 +216,6 @@ body {
     color: skyblue;
 }
 
-/* || Text */
-
-
-
 /* || Category Nagivation */
 
 .categoryBlock {
@@ -252,4 +252,82 @@ body {
     align-items: center;
     margin: auto;
     width: 50%;
+}
+
+/* || About Page */
+
+.boxBackground {
+    background-color:#11111175;
+}
+
+.aboutBackgroundBox {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-grow: 3;
+    align-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.aboutBackgroundBox img {
+    width: auto;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
+
+
+.aboutSocial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.aboutLink {
+    height: 4rem;
+    width: 15rem;
+    margin: auto;
+    background-color: #111111ad;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+    text-decoration: none;
+    font-weight:300;
+    font-family: inter, sans-serif;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+
+}
+
+.aboutCredits {
+    font-size: 1.5rem;
+    font-weight:700;
+    font-family: inter, sans-serif;
+    font-style:italic;
+    color: cyan;
+}
+
+.aboutCredits a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    .aboutBackgroundBox {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+/* || jquery */
+
+label {
+    display: inline-block;
+    width: 5rem;
 }
