@@ -230,7 +230,7 @@ body {
 .categoryButton {
     width: 15rem;
     height: 15rem;
-    background-color: rgb(39, 39, 39);
+    background-color: rgba(39, 39, 39, 0.69);
     padding-top: 3em;
     margin: 1em;
     text-align: center;
