@@ -331,3 +331,40 @@ label {
     display: inline-block;
     width: 5rem;
 }
+
+/* || Main Content Pages */
+
+.aboutBackgroundBox p {
+    text-align: center;
+}
+
+.affiliate a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.affiliate {
+    height: 4rem;
+    width: 15rem;
+    margin: auto;
+    background-color: #111111ad;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+    text-decoration: none;
+    font-weight:300;
+    font-family: inter, sans-serif;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+
+}
+
+.appPageLogo img {
+    width: 12rem;
+    height: auto;
+    width: 50%
+    
+}
